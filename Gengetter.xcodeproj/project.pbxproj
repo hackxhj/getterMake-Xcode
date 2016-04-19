@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F32131311CC66D2F00BE20B1 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F32131301CC66D2F00BE20B1 /* AppKit.framework */; };
+		F32131331CC66D2F00BE20B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F32131321CC66D2F00BE20B1 /* Foundation.framework */; };
+		F32131371CC66D2F00BE20B1 /* Gengetter.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = F32131361CC66D2F00BE20B1 /* Gengetter.xcscheme */; };
+		F321313A1CC66D2F00BE20B1 /* Gengetter.m in Sources */ = {isa = PBXBuildFile; fileRef = F32131391CC66D2F00BE20B1 /* Gengetter.m */; };
+		F321313D1CC66D2F00BE20B1 /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F321313C1CC66D2F00BE20B1 /* NSObject_Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F321312D1CC66D2F00BE20B1 /* Gengetter.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gengetter.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32131301CC66D2F00BE20B1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		F32131321CC66D2F00BE20B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		F32131361CC66D2F00BE20B1 /* Gengetter.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Gengetter.xcscheme; path = Gengetter.xcodeproj/xcshareddata/xcschemes/Gengetter.xcscheme; sourceTree = SOURCE_ROOT; };
+		F32131381CC66D2F00BE20B1 /* Gengetter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gengetter.h; sourceTree = "<group>"; };
+		F32131391CC66D2F00BE20B1 /* Gengetter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gengetter.m; sourceTree = "<group>"; };
+		F321313B1CC66D2F00BE20B1 /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		F321313C1CC66D2F00BE20B1 /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+		F321313E1CC66D2F00BE20B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F321312B1CC66D2F00BE20B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32131311CC66D2F00BE20B1 /* AppKit.framework in Frameworks */,
+				F32131331CC66D2F00BE20B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F32131241CC66D2F00BE20B1 = {
+			isa = PBXGroup;
+			children = (
+				F32131341CC66D2F00BE20B1 /* Gengetter */,
+				F321312F1CC66D2F00BE20B1 /* Frameworks */,
+				F321312E1CC66D2F00BE20B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F321312E1CC66D2F00BE20B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F321312D1CC66D2F00BE20B1 /* Gengetter.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F321312F1CC66D2F00BE20B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F32131301CC66D2F00BE20B1 /* AppKit.framework */,
+				F32131321CC66D2F00BE20B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F32131341CC66D2F00BE20B1 /* Gengetter */ = {
+			isa = PBXGroup;
+			children = (
+				F32131381CC66D2F00BE20B1 /* Gengetter.h */,
+				F32131391CC66D2F00BE20B1 /* Gengetter.m */,
+				F321313B1CC66D2F00BE20B1 /* NSObject_Extension.h */,
+				F321313C1CC66D2F00BE20B1 /* NSObject_Extension.m */,
+				F321313E1CC66D2F00BE20B1 /* Info.plist */,
+				F32131351CC66D2F00BE20B1 /* Supporting Files */,
+			);
+			path = Gengetter;
+			sourceTree = "<group>";
+		};
+		F32131351CC66D2F00BE20B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F32131361CC66D2F00BE20B1 /* Gengetter.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F321312C1CC66D2F00BE20B1 /* Gengetter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F32131411CC66D2F00BE20B1 /* Build configuration list for PBXNativeTarget "Gengetter" */;
+			buildPhases = (
+				F32131291CC66D2F00BE20B1 /* Sources */,
+				F321312A1CC66D2F00BE20B1 /* Resources */,
+				F321312B1CC66D2F00BE20B1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gengetter;
+			productName = Gengetter;
+			productReference = F321312D1CC66D2F00BE20B1 /* Gengetter.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F32131251CC66D2F00BE20B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = hackxhj;
+				TargetAttributes = {
+					F321312C1CC66D2F00BE20B1 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = F32131281CC66D2F00BE20B1 /* Build configuration list for PBXProject "Gengetter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F32131241CC66D2F00BE20B1;
+			productRefGroup = F321312E1CC66D2F00BE20B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F321312C1CC66D2F00BE20B1 /* Gengetter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F321312A1CC66D2F00BE20B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32131371CC66D2F00BE20B1 /* Gengetter.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F32131291CC66D2F00BE20B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F321313A1CC66D2F00BE20B1 /* Gengetter.m in Sources */,
+				F321313D1CC66D2F00BE20B1 /* NSObject_Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F321313F1CC66D2F00BE20B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		F32131401CC66D2F00BE20B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		F32131421CC66D2F00BE20B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = Gengetter/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.XHJ.Gengetter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		F32131431CC66D2F00BE20B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = Gengetter/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.XHJ.Gengetter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F32131281CC66D2F00BE20B1 /* Build configuration list for PBXProject "Gengetter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F321313F1CC66D2F00BE20B1 /* Debug */,
+				F32131401CC66D2F00BE20B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F32131411CC66D2F00BE20B1 /* Build configuration list for PBXNativeTarget "Gengetter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32131421CC66D2F00BE20B1 /* Debug */,
+				F32131431CC66D2F00BE20B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F32131251CC66D2F00BE20B1 /* Project object */;
+}
