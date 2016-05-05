@@ -37,16 +37,23 @@
 {
     //removeObserver
     [[NSNotificationCenter defaultCenter] removeObserver:self name:NSApplicationDidFinishLaunchingNotification object:nil];
+    NSMenuItem *menuItem = [[NSApp mainMenu] itemWithTitle:@"Window"];
     
-    // Create menu items, initialize UI, etc.
-    // Sample Menu Item:
-    NSMenuItem *menuItem = [[NSApp mainMenu] itemWithTitle:@"Edit"];
     if (menuItem) {
-        [[menuItem submenu] addItem:[NSMenuItem separatorItem]];
-        NSMenuItem *actionMenuItem = [[NSMenuItem alloc] initWithTitle:@"Do Action" action:@selector(doMenuAction) keyEquivalent:@""];
-        //[actionMenuItem setKeyEquivalentModifierMask:NSAlphaShiftKeyMask | NSControlKeyMask];
-        [actionMenuItem setTarget:self];
-        [[menuItem submenu] addItem:actionMenuItem];
+        
+        NSMenu *menu = [[NSMenu alloc] init];
+        
+        //Input JSON window
+        NSMenuItem *inputJsonWindow = [[NSMenuItem alloc] initWithTitle:@"Input property  window" action:@selector(doMenuAction) keyEquivalent:@"s"];
+        [inputJsonWindow setKeyEquivalentModifierMask:NSAlphaShiftKeyMask | NSControlKeyMask];
+        inputJsonWindow.target = self;
+        [menu addItem:inputJsonWindow];
+ 
+        
+        NSMenuItem *item = [[NSMenuItem alloc] initWithTitle:@"GenGetter" action:nil keyEquivalent:@""];
+        item.submenu = menu;
+        
+        [[menuItem submenu] addItem:item];
     }
 }
 
