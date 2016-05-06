@@ -7,6 +7,7 @@
 //
 
 
+
 #import "NSObject_Extension.h"
 #import "Gengetter.h"
 
@@ -22,4 +23,6 @@
         });
     }
 }
+
+
 @end

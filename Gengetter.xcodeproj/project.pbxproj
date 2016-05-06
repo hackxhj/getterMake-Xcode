@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7508046F1CDB35F5005951A6 /* InputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7508046D1CDB35F5005951A6 /* InputViewController.m */; };
+		750804701CDB35F5005951A6 /* InputViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7508046E1CDB35F5005951A6 /* InputViewController.xib */; };
 		F32131311CC66D2F00BE20B1 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F32131301CC66D2F00BE20B1 /* AppKit.framework */; };
 		F32131331CC66D2F00BE20B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F32131321CC66D2F00BE20B1 /* Foundation.framework */; };
 		F32131371CC66D2F00BE20B1 /* Gengetter.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = F32131361CC66D2F00BE20B1 /* Gengetter.xcscheme */; };
@@ -15,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7508046C1CDB35F5005951A6 /* InputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputViewController.h; sourceTree = "<group>"; };
+		7508046D1CDB35F5005951A6 /* InputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputViewController.m; sourceTree = "<group>"; };
+		7508046E1CDB35F5005951A6 /* InputViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputViewController.xib; sourceTree = "<group>"; };
 		F321312D1CC66D2F00BE20B1 /* Gengetter.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gengetter.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		F32131301CC66D2F00BE20B1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		F32131321CC66D2F00BE20B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -68,6 +73,9 @@
 		F32131341CC66D2F00BE20B1 /* Gengetter */ = {
 			isa = PBXGroup;
 			children = (
+				7508046C1CDB35F5005951A6 /* InputViewController.h */,
+				7508046D1CDB35F5005951A6 /* InputViewController.m */,
+				7508046E1CDB35F5005951A6 /* InputViewController.xib */,
 				F32131381CC66D2F00BE20B1 /* Gengetter.h */,
 				F32131391CC66D2F00BE20B1 /* Gengetter.m */,
 				F321313B1CC66D2F00BE20B1 /* NSObject_Extension.h */,
@@ -143,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F32131371CC66D2F00BE20B1 /* Gengetter.xcscheme in Resources */,
+				750804701CDB35F5005951A6 /* InputViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F321313A1CC66D2F00BE20B1 /* Gengetter.m in Sources */,
+				7508046F1CDB35F5005951A6 /* InputViewController.m in Sources */,
 				F321313D1CC66D2F00BE20B1 /* NSObject_Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +293,7 @@
 				F32131431CC66D2F00BE20B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
