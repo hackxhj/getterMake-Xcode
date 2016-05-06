@@ -1,5 +1,5 @@
 # getterMake-Xcode
-功能：批量生成属性的懒加载 getter
+功能：批量生成属性的懒加载 getter，应用场景 ：手写ui代码可以批量生成
 
 ####安装方法：
 方式1：下载-Xcode打开-Command+B-重启Xcode  （提示框 点击允许加载）
