@@ -73,7 +73,7 @@
     
 }
 
-
+//输出的字符串
 -(NSString*)formatGetter:(NSString*)sourceStr
 {
     NSString *myResult;
