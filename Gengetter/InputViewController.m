@@ -117,38 +117,4 @@
     
     return myResult;
 }
-
-
-
-
-
-- (NSString *)mstr{
-    if(!_mstr){
-        _mstr = ({
-            NSString * object = [[NSString alloc]init];
-            object;
-       });
-    }
-    return _mstr;
-}
-
-- (NSString *)nstr{
-    if(!_nstr){
-        _nstr = ({
-            NSString * object = [[NSString alloc]init];
-            object;
-       });
-    }
-    return _nstr;
-}
-
-- (NSWindow *)xwindows{
-    if(!_xwindows){
-        _xwindows = ({
-            NSWindow * object = [[NSWindow alloc]init];
-            object;
-       });
-    }
-    return _xwindows;
-}
 @end
