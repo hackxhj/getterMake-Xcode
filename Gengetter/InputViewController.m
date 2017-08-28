@@ -15,15 +15,16 @@
 @interface InputViewController ()
 
 @property(nonatomic,strong)NSString *mstr;
+//啊啊
 @property(nonatomic,strong)NSString *nstr;
+
+/**
+ desc(using)
+ */
 @property(nonatomic,strong)NSWindow* xwindows;
 @end
 
 @implementation InputViewController
-
-
-
-
 
 
 -(void)windowWillClose:(NSNotification *)notification{
@@ -62,7 +63,7 @@
             continue;
         }
        // NSLog(@"%@\n....",[self formatGetter:output]);
-        NSString *spaceStr=[NSString stringWithFormat:@"%@\n",[self formatGetter:output]];
+        NSString *spaceStr=[NSString stringWithFormat:@"%@",[self formatGetter:output]];
         allResult=[allResult stringByAppendingString:spaceStr];
     }
     
@@ -112,7 +113,7 @@
     NSString *line8 = [NSString stringWithFormat:@"\n    return %@;",underLineName];
     NSString *line9 = [NSString stringWithFormat:@"\n}"];
     
-    myResult = [NSString stringWithFormat:@"%@%@%@%@%@%@%@%@%@",line1,line2,line3,line4,line5,line6,line7,line8,line9];
+    myResult = [NSString stringWithFormat:@"\n%@%@%@%@%@%@%@%@%@",line1,line2,line3,line4,line5,line6,line7,line8,line9];
     
     return myResult;
 }
@@ -121,4 +122,33 @@
 
 
 
+- (NSString *)mstr{
+    if(!_mstr){
+        _mstr = ({
+            NSString * object = [[NSString alloc]init];
+            object;
+       });
+    }
+    return _mstr;
+}
+
+- (NSString *)nstr{
+    if(!_nstr){
+        _nstr = ({
+            NSString * object = [[NSString alloc]init];
+            object;
+       });
+    }
+    return _nstr;
+}
+
+- (NSWindow *)xwindows{
+    if(!_xwindows){
+        _xwindows = ({
+            NSWindow * object = [[NSWindow alloc]init];
+            object;
+       });
+    }
+    return _xwindows;
+}
 @end
