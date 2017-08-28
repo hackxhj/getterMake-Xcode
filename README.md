@@ -2,16 +2,16 @@
 功能：批量生成属性的懒加载 getter，应用场景 ：手写ui代码可以批量生成
 
 #### 更新:
-添加8.3 8.2的支持
-屏蔽注释和assign属性
-修改输出样式
+<br>添加8.3 8.2的支持
+<br>屏蔽注释和assign属性
+<br>修改输出样式
 
 #### 安装方法：
 1: 如果你的Xcode没有resigin 请先resign你的Xcode (Xcode8.0+)<br>
 
 resgin方法:
-方法1.https://github.com/fpg1503/MakeXcodeGr8Again
-方法2.https://github.com/XVimProject/XVim/blob/master/INSTALL_Xcode8.md
+<br>方法1.https://github.com/fpg1503/MakeXcodeGr8Again
+<br>方法2.https://github.com/XVimProject/XVim/blob/master/INSTALL_Xcode8.md
 
 2: 下载-Xcode打开-Command+B-重启Xcode  （提示框 点击load bundle）<br>
 3: 如果重启Xcode没有提示load bundle 请尝试在终端中运行如下代码
